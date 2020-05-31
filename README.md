@@ -2,7 +2,7 @@
 
 > **Intro** <br />
 
-This is Jason's profile website created by HTML, CSS, and JavaScript. <br />
+This is Jason's profile website created by HTML, CSS, and JavaScript. <a href="https://jasondba.github.io/jasonProfile/">Visit the link!</a><br />
 
 **NOTE: This version is only for desktop. (Unfortunately, the grid formate is not for phone, tablet or any devices other than desktop).**
 <br />
