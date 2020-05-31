@@ -3,7 +3,9 @@
 > Intro
 This is Jason's profile website created by HTML, CSS, and JavaScript. <br/>
 **NOTE: This version is only for desktop. (Unfortunately, the grid formate is not for phone, tablet or any devices other than desktop).**
+
 ![](image/profile.gif)
+
 > Contents
 - **HOME (index.html):** Main homepage. Including such brief information as 'About Jason Choi', 'Work Experience', and 'Education/Certification'.
 - **PROJECT (project.html):** Summary of assignments and individual/team projects completed in school. Each is connected to its GitHub repository.
