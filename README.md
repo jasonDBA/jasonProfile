@@ -1,6 +1,7 @@
 # Welcome to Jason's Website!
 
 > **Intro** <br />
+
 This is Jason's profile website created by HTML, CSS, and JavaScript. <br />
 
 **NOTE: This version is only for desktop. (Unfortunately, the grid formate is not for phone, tablet or any devices other than desktop).**
