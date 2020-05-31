@@ -2,7 +2,7 @@
 
 > Intro
 This is Jason's profile website created by HTML, CSS, and JavaScript. 
-** NOTE: This version is only for desktop. (Unfortunately, the grid formate is not for phone, tablet or any devices other than desktop).**
+**NOTE: This version is only for desktop. (Unfortunately, the grid formate is not for phone, tablet or any devices other than desktop).**
 
 ![](profile.gif)
 
