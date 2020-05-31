@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>project.html</title>
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=News+Cycle&family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--Header 영역-->
+    <div class="header">
+      <h1><a href="index.html">Jabin Choi's Profile</a></h1>
+    </div>
+    <!--Navigator 영역-->
+    <nav id="topMenu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="album.html">ALBUM</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="form.html">FORM</a></li>
+      </ul>
+    </nav>
+    <!--Main Content 영역-->
+    <section class="page-section">
+      <h2 class="text-center">Projects</h2>
+      <div class="tab">
+        <button class="tablinks" onclick="openProject(event, 'C#')" id="defaultOpen">C# (.NET)</button>
+        <button class="tablinks" onclick="openProject(event, 'SqlJava')">SQL + Java</button>
+        <button class="tablinks" onclick="openProject(event, 'Python')">Python for Data Science</button>
+        <button class="tablinks" onclick="openProject(event, 'Kaggle')">Kaggle Data Analytics</button>
+        <button class="tablinks" onclick="openProject(event, 'Excel')">MS Excel Data Analytics</button>
+      </div>
+      <div id="C#" class="tabcontent">
+        <h4 class="padding">C# (.NET)</h4>
+        <div class="picture">
+          <img src="image/Csharp.png" alt="C# GitHub Page Snapshot" class="image-project image-center">
+          <div class="middle">
+            <a class="text" href="https://github.com/jasonDBA/C_Sharp_samples"><i class="fab fa-github-square fa-fw fa-2x"></i>Visit GitHub</a>
+          </div>
+        </div>
+        <p class="padding">This git repository includes algorithms and shares assignments/projects completed at school. The main language and tools are Visual Studio (version: 2019) using C # code (.NET Framework), and each directory contains a README - it is recommended to read and run the code first.</p>
+        <h5 class="text-center">Recommended Steps</h5>
+        <div class="border-line"></div>
+        <p>
+          <ol>
+            <li>Go to the following GitHub URL: <a href="https://github.com/jasonDBA/C_Sharp_samples">GitHub URL</a></li>
+            <li>Click on "Clone or download" in the GitHub repository.</li>
+            <li>Click on "Download Zip".</li>
+            <li>Unzip the files.</li>
+            <li>Read the "README" file.</li>
+            <li>Run the code in your Visual Studio: <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Download URL</a></li>
+          </ol>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div id="SqlJava" class="tabcontent">
+        <h4 class="padding">SQL + Java (JDBC)</h4>
+        <div class="picture">
+          <img src="image/SqlJava.png" alt="SQL+Java GitHub Page Snapshot" class="image-project image-center">
+          <div class="middle">
+            <a class="text" href="https://github.com/jasonDBA/SQL_Java_Project"><i class="fab fa-github-square fa-fw fa-2x"></i>Visit GitHub</a>
+          </div>
+        </div>
+        <p class="padding">This GitHub repository contains E-commercial management system applications using Oracle PL/SQL and Java. The purpose of this project is to generate more profits by selling goods to a wider customer base through E-commercial.</p>
+        <p class="padding">Based on the Oracle SQL Developer program, tables based on the characteristics of the information contained in PL/SQL have been created. The total number of the table is six, which are 'Product', 'Customers', 'Category', 'OrderDetail', 'Orders', and 'Shipping' in the Entity-Relationship Diagram(ERD).</p>
+        <p class="padding">In this project, JavaFX is used to run consistently across multiple platforms and various devices such as desktop, mobile phones, tablets, TV, and etc.</p>
+        <h5 class="text-center">What is JavaFX?</h5>
+        <div class="border-line"></div>
+        <p class="padding">JavaFX is a Java library that allows users to build Rich Internet Applications. Moreover, JavaFX also provides interfaces using which developers can combine graphics, animation and UI control. For more details, please refer to the following link:<a href="https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm">See Details</a></p>
+        <p class="padding">Please visit the following GitHub URL: <a href="https://github.com/jasonDBA/SQL_Java_Project">GitHub URL</a></p>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div id="Python" class="tabcontent">
+        <h4 class="padding">Python for Data Science</h4>
+        <div class="picture">
+          <img src="image/python.png" alt="Python DA GitHub Page Snapshot" class="image-project image-center">
+          <div class="middle">
+            <a class="text" href="https://github.com/jasonDBA/Python_DA"><i class="fab fa-github-square fa-fw fa-2x"></i>Visit GitHub</a>
+          </div>
+        </div>
+        <p class="padding">This GitHub repository is a Python Data Analytics project from an online course provided by IBM called Data Science Professional. In this project, dataset related to the average housing price and school ratings among the venues registered in the app called Foursqaure.</p>
+        <h5 class="text-center">What is Foursqaure?</h5>
+        <div class="border-line"></div>
+        <p class="padding">It is a social location service that provides users to explore the location around the world. The app enables users to download it through iPhone, BlackBerry, or Android devices and then connects their account to other social media accounts.
+          Foursquare API itself is a RESTful set of addresses to which developers can send requests so that they have nothing to download onto their server and it just allows developers to interact with the Foursquare platform. <a href="https://ko.foursquare.com/">See Details</a>
+        </p>
+        <h5 class="text-center">Recommended Steps</h5>
+        <div class="border-line"></div>
+        <p>
+          <ol>
+            <li>Go to the following GitHub URL: <a href="https://github.com/jasonDBA/Python_DA">GitHub URL</a></li>
+            <li>Click on "Final Report.pdf".</li>
+            <li>Read and understand the report.</li>
+            <li>Download the file "Segmenting and Clustering Neighborhoods in Toronto_FINAL.ipynb".</li>
+            <li>Install Anaconda from the below link: <a href="https://www.anaconda.com/products/individual">Anaconda Download URL</a></li>
+            <li>Download Jupyter Notebook in Anaconda.</li>
+            <li>Run the .ipynb file you just downloaded from Jupyter Notebook.</li>
+          </ol>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div id="Kaggle" class="tabcontent">
+        <h4 class="padding">Kaggle Data Analytics</h4>
+        <div class="picture">
+          <img src="image/kaggle.png" alt="Kaggle DA GitHub Page Snapshot" class="image-project image-center">
+          <div class="middle">
+            <a class="text" href="https://github.com/jasonDBA/Kaggle_DA_samples"><i class="fab fa-github-square fa-fw fa-2x"></i>Visit GitHub</a>
+          </div>
+        </div>
+        <p class="padding">This GitHub repository takes public datasets provided by Kaggle and shares the results of data analysis using Python. It is recommended to run each file as a .ipynb extension in Jupyter Notebook.</p>
+        <h5 class="text-center">Recommended Steps</h5>
+        <div class="border-line"></div>
+        <p>
+          <ol>
+            <li>Go to the following GitHub URL: <a href="https://github.com/jasonDBA/Kaggle_DA_samples">GitHub URL</a></li>
+            <li>Install Anaconda - Download URL: <a href="https://www.anaconda.com/products/individual">Anaconda Download URL</a></li>
+            <li>Install Jupyter Notebook in Anaconda: <a href="https://jupyter.readthedocs.io/en/latest/install.html">How to install Jupyter Notebook?</a></li>
+            <li>Download .ipynb file from GitHub repository.</li>
+            <li>Run the file in Jupyter Notebook.</li>
+          </ol>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <div id="Excel" class="tabcontent">
+        <h4 class="padding">Microsoft Excel Data Analytics</h4>
+        <div class="picture">
+          <img src="image/excel.png" alt="Microsoft Excel DA GitHub Page Snapshot" class="image-project image-center">
+          <div class="middle">
+            <a class="text" href="https://github.com/jasonDBA/Excel_DA"><i class="fab fa-github-square fa-fw fa-2x"></i>Visit GitHub</a>
+          </div>
+        </div>
+        <p class="padding">This is an output of a large dataset related to international student enrollment at Centennial College. I went through this with MS Excel and mostly used the Pivot table. <a href="https://github.com/jasonDBA/Excel_DA">Visit GitHub URL</a></p>
+        <h5 class="text-center">Details</h5>
+        <div class="border-line"></div>
+        <p>
+          <ul class="padding">
+            <li>The 1'st bottom tap: Raw data including various attributes(columns).</li>
+            <li>The 2'nd bottom tap: Confirmed(No duplicated) Data. The dataset handled by data cleaning/mining.</li>
+            <li>The 3'rd bottom tap: TOTAL_Recruit. Organized outcomes sorted by countries and school programs.</li>
+            <li>The 4'th bottom tap: By School. A summary of the data sorted by school programs.</li>
+            <li>The 5'th bottom tap: By Team. A summary of the data sorted by international teams.</li>
+          </ul>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+    </section>
+    <!--Footer 영역-->
+    <div class="footer">
+      <div class="row">
+        <div class="column2 text-center">
+          <h4>Location</h4>
+          <h6>216 Hendon Ave<br/>North York, ON M2M 1B1</h6>
+        </div>
+        <div class="column2 text-center">
+          <h4>Around the Web</h4>
+          <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/jasonchoidba/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social" href="https://github.com/jasonDBA"><i class="fab fa-fw fa-github"></i></a>
+        </div>
+        <div class="column2 text-center">
+          <h4>Contact</h4>
+          <h6>Email: jasonchoi.dba@gmail.com
+          <br/>Tel: +1 (647)-667-3013</h6>
+        </div>
+      </div>
+    </div>
+    <!--JavaScript-->
+    <script>
+    function openProject(evt, projectName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(projectName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>

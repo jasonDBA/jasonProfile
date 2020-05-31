@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>album.html</title>
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=News+Cycle&family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--Header 영역-->
+    <div class="header">
+      <h1><a href="index.html">Jabin Choi's Profile</a></h1>
+    </div>
+    <!--Navigator 영역-->
+    <nav id="topMenu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="album.html">ALBUM</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="form.html">FORM</a></li>
+      </ul>
+    </nav>
+    <!--Main Content 영역-->
+    <section class="page-section">
+      <h2 class="text-center">Jabin's Album</h2>
+      <!--Pre-view Demo Picture 영역-->
+      <div class="row">
+        <div class="column6">
+          <img src="image/album/picture1.jpg" alt="Me and My Friend" class="gallery-img demo gallery-cursor" onclick="currentSlide(1)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture2.jpg" alt="Memory in BlackBerry" class="gallery-img demo gallery-cursor" onclick="currentSlide(2)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture3.jpg" alt="BBQ Party in Waterloo" class="gallery-img demo gallery-cursor" onclick="currentSlide(3)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture4.jpg" alt="Fancy Cafe and Brunch" class="gallery-img demo gallery-cursor" onclick="currentSlide(4)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture5.jpg" alt="Break time on BlackBerry" class="gallery-img demo gallery-cursor" onclick="currentSlide(5)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture6.jpg" alt="Tech Support Avanger's Team" class="gallery-img demo gallery-cursor" onclick="currentSlide(6)" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="column6">
+          <img src="image/album/picture7.jpg" alt="Fun Sushi Party" class="gallery-img demo gallery-cursor" onclick="currentSlide(7)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture8.jpg" alt="Wing & Beer Night" class="gallery-img demo gallery-cursor" onclick="currentSlide(8)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture9.jpg" alt="Chat Time" class="gallery-img demo gallery-cursor" onclick="currentSlide(9)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture10.jpg" alt="Fun Time with Friends" class="gallery-img demo gallery-cursor" onclick="currentSlide(10)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture11.jpg" alt="Dark Beer Night" class="gallery-img demo gallery-cursor" onclick="currentSlide(11)" />
+        </div>
+        <div class="column6">
+          <img src="image/album/picture12.jpg" alt="Fun Pizza Party" class="gallery-img demo gallery-cursor" onclick="currentSlide(12)" />
+        </div>
+      </div>
+      <!--Picture Default 영역-->
+      <div class="gallery-container">
+        <div class="gallery-slides">
+          <img src="image/album/picture1.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture2.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture3.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture4.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture5.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture6.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture7.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture8.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture9.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture10.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture11.jpg" class="gallery-img" />
+        </div>
+        <div class="gallery-slides">
+          <img src="image/album/picture12.jpg" class="gallery-img" />
+        </div>
+        <!--Prev, Next 버튼 영역--->
+        <a class="gallery-prev" onclick="plusSlides(-1)">❮</a>
+        <a class="gallery-next" onclick="plusSlides(1)">❯</a>
+        <!--Caption 영역-->
+        <div class="caption-container">
+          <p id="caption" class="text-center"></p>
+        </div>
+      </div>
+    </section>
+    <!--Footer 영역-->
+    <div class="footer">
+      <div class="row">
+        <div class="column2 text-center">
+          <h4>Location</h4>
+          <h6>216 Hendon Ave<br/>North York, ON M2M 1B1</h6>
+        </div>
+        <div class="column2 text-center">
+          <h4>Around the Web</h4>
+          <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/jasonchoidba/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social" href="https://github.com/jasonDBA"><i class="fab fa-fw fa-github"></i></a>
+        </div>
+        <div class="column2 text-center">
+          <h4>Contact</h4>
+          <h6>Email: jasonchoi.dba@gmail.com
+          <br/>Tel: +1 (647)-667-3013</h6>
+        </div>
+      </div>
+    </div>
+    <!--JavaScript 영역-->
+    <script>
+      var index=1;
+      showSlides(index);
+
+      function plusSlides(n){
+        showSlides(index += n); <!--n is either 1 or -1-->
+      }
+
+      function currentSlide(n){
+        showSlides(index = n);
+      }
+
+      function showSlides(n){
+        var i;
+        var slides = document.getElementsByClassName("gallery-slides");
+        var previewDemo = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+
+        if(n> slides.length){
+          index = 1;
+        }
+        if(n<1){
+          index = slides.length;
+        }
+
+        for(i=0; i<slides.length; i++){
+          slides[i].style.display = "none";
+        }
+        for(i=0; i<previewDemo.length; i++){
+          previewDemo[i].className = previewDemo[i].className.replace(" active", "");
+        }
+        slides[index-1].style.display = "block";
+        previewDemo[index-1].className += " active";
+        captionText.innerHTML = previewDemo[index-1].alt;
+      }
+    </script>
+  </body>
+</html>
