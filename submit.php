@@ -1,13 +1,18 @@
 <html>
   <body>
-    Thank you, <?php echo $_GET['fName']; $_GET['lName'];?>
-    <br>
-    Confirmed your request with the following information:
-    <br>
-    Full Name: <?php echo $_GET['fName']; $_GET['lName'];?><br>
-    Country: <?php echo $_GET['country']; ?><br>
-    Email: <?php echo $_GET['email'];?><br>
-    <br>
-    I will contact you sooner or later! Can't wait for our fun coffee time!
-  </body>
+    <?php
+    echo "Thank you, ".$_POST['fName']." ".$_POST['lName'];
+    echo "Confirmed your request with the following information: ";
+    echo "<br />";
+    echo "<br />";
+    echo "Full Name: ".$_POST['fName']." ".$_POST['lName'];
+    echo "<br />";
+    echo "Country: ".$_POST['country'];
+    echo "<br />";
+    echo "Email: ".$_POST['email'];
+    echo "<br />";
+    echo "<br />";
+    echo "I will contact you sooner or later! Can't wait for our fun coffee time!";
+     ?>
+   </body>
 </html>
